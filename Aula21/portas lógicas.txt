@@ -15,7 +15,7 @@ a0 . b1 = y0
 a1 . b0 = y0
 a1 . b1 = y1
 
-só funciona se tiver a E b 
+só funciona se tiver a E b  
 
 ------------------------------------------------
 porta or - ou
