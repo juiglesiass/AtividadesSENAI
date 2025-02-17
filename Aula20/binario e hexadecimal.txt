@@ -1,0 +1,60 @@
+# Binário ------------------------------------------------------------------------------
+
+**Quando um binário termina com 1 o resultado será impar e quando termina em 0 será par.**
+
+Pula os zeros na hora de somar
+
+Para transformar de binário para inteiro
+
+é 2 elevado ao número da casa
+
+1           1         0
+
+ 2^2   2^1   2^0
+
+Somando os resultados menos o do 0.
+
+
+Números inteiros para binário, dividir por 2 e anotar os restos contando o último resultado.
+
+158 para binário 
+
+158/2 resto 0 = 79/2 resto 1 = 39/2 resto 1 = 19/2 resto 1 = 9/2 resto 1 = 4/2 resto 0 = 2/2 resto 0 = 1
+
+da direita para esquerda (do final para o começo) 10011110
+
+NÚMEROS ÍMPARES SEMPRE SOBRA 1 E PAR SOBRA 0
+
+# Hexadecimal -------------------------------------------------------------------------
+
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+10,11,12,13,14,15,15,17,18,19,1A,1B,1C,1D,1E,1F
+
+Potência de 16 
+
+A           5 
+
+16^1   16^0
+
+16*A(A = 10) = 160
+
+5*1 =       5
+
+= 165
+
+Números inteiros para binário, dividir por 16 e anotar os restos contando o último resultado.
+
+1437 para hexadecimal 
+
+1437/16 resto 13 = 89/2 resto 9 = 5/16= nao da entao ele vira o primeiro numero
+
+13 = D, logo:
+
+1 4 3 7 = 5  9  D
+
+exemplo binario e hexadecimal:
+
+1 0010 1110 1101
+
+1     2      E     D

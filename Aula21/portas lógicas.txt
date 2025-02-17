@@ -1,0 +1,91 @@
+7 portas lógicas
+
+assistir o filme "o jogo da imitação"
+
+-----------------------------------------------
+porta end - e
+     ___
+a - |   \ _ y
+b - |___/
+
+a.b
+
+a0 . b0 = y0
+a0 . b1 = y0
+a1 . b0 = y0
+a1 . b1 = y1
+
+só funciona se tiver a E b 
+
+------------------------------------------------
+porta or - ou
+     ___
+a - \   \ _ y
+b - /___/
+
+a+b
+
+a0 + b0 = y0
+a1 + b0 = y1
+a0 + b1 = y1
+a1 + b1 = y1
+------------------------------------------------
+porta not - inversora
+
+a -▷o - y
+
+a inverso
+
+a1 = y0
+a0 = y1
+------------------------------------------------
+porta nand - não e
+     ___
+a - |   \ -▷o - y
+b - |___/
+
+a.b inverso
+
+a0 . b0 inverso = y1
+a0 . b1 inverso = y1
+a1 . b0 inverso = y1
+a1 . b1 inverso = y0
+-----------------------------------------------
+porta nor - não ou
+     ___                        ___
+a - \   \ -▷o - y    =     a - \   \o - y 
+b - /___/                  b -  /___/
+
+a+b inverso
+
+a0 + b0 inverso = y1
+a1 + b0 inverso = y0
+a0 + b1 inverso = y0
+a1 + b1 inverso = y0
+-----------------------------------------------
+porta xor - ou exclusiva
+      ___
+a - \\   \ _ y 
+b - //___/
+
+a+b exclusiva
+
+a0 + b0 exclusiva = y0
+a1 + b0 exclusiva = y1
+a0 + b1 exclusiva = y1
+a1 + b1 exclusiva = y0
+-----------------------------------------------
+porta xnor - ou exclusiva inverso
+
+      ___
+a - \\   \ o_ y 
+b - //___/
+
+
+a+b exclusiva inverso
+
+a0 + b0 exclusiva inverso = y0
+a1 + b0 exclusiva inverso = y1
+a0 + b1 exclusiva inverso = y1
+a1 + b1 exclusiva inverso = y0
+
