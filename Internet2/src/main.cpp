@@ -2,6 +2,7 @@
 #include <PubSubClient.h>
 #include <WiFi.h>
 #include "internet.h"
+
 #define pinLed 2
 
 WiFiClient espClient;
@@ -17,6 +18,7 @@ void callback(char *, byte *, unsigned int);
 void mqttConnect(void);
 void pisca();
 
+int velocidade = 500;
 bool estadoLed = false;
 bool modoPisca = false;
 
@@ -51,7 +53,6 @@ void loop()
   }
   
   pisca();
-
 }
 
 
@@ -92,10 +93,25 @@ void callback(char *topic, byte *payLoad, unsigned int Length) //recebendo msg
     Serial.println("Led Piscando");
   }
 
+  else if (mensagem == "mais rapido")
+  {
+    velocidade -= 100;
+    Serial.println("Led Piscando mais rapido");
+    if(velocidade == 0) velocidade = 100;
+  }
+
+  else if (mensagem == "mais devagar")
+  {
+    velocidade += 100;
+    Serial.println("Led Piscando mais devagar");
+    if(velocidade == 2000) velocidade = 2000;
+  }
+
   else
   {
     Serial.println("Comando Nao Reconhecido");
   }
+
 }
 
 void mqttConnect()
@@ -129,7 +145,7 @@ void pisca()
 
   if (modoPisca)
   {
-    if(agora - ultimaMudanca > 500)
+    if(agora - ultimaMudanca > velocidade)
       {
         estadoLed = !estadoLed;
         ultimaMudanca = agora;
