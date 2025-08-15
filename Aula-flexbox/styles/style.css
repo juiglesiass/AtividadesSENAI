@@ -1,0 +1,92 @@
+div img {
+    height: 50px;
+    width: 60px;
+}
+
+.div-flex { 
+    background-color: #ACFFFF;
+    height: 50px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.espacado1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.espacado2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.espacado3 {
+    display: flex;
+    justify-content: center;
+}
+
+.espacado4 {
+    display: flex;
+    justify-content: end;
+}
+
+.espacado5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.espacado5 div {
+    background-color: #FFE606;
+}
+
+.espacado6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.espacado6 div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFE606;
+    width: 40%;
+}
+
+.espacado7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.espacado7 div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFE606;
+    width: 30%;
+}
+
+.espacado8 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.espacado8 div {
+    background-color: #FFE606;
+}
+
+.espacado9 {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.espacado9 div {
+    background-color: #FFE606;
+}
+
+.espacado10 {
+    height: 200px;
+}
+
+.espacado10 div {
+    background-color: #FFE606;
+}

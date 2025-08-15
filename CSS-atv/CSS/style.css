@@ -11,21 +11,49 @@ body {
     background-size: cover;
 }
 
+header {
+    background-color: #1f2a3c;
+    height: 30px;
+    border-bottom: 1px solid #ffffffa6;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 4px 1px #00000060;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #cb2727;
+}
+
+.yellow {
+    background-color: #eac520;
+}
+
+.green {
+    background-color: #3fac21;
+}
+
 #homepage {
     padding: 65px;
 }
 
 #login {
     background-color: #ffffff70;
-    border: 1px solid #ffffff;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: 1px 1px 4px 1px #00000060, 1px 1px 1px rgba(255, 255, 255, 0.668) inset;
     padding: 30px;
     margin: auto;
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 260px;
     gap: 10px;
     text-align: center;
 }
@@ -61,4 +89,18 @@ span {
 span:hover {
     text-decoration-line: underline;
     cursor: pointer;
+}
+
+footer {
+    background-color: #ffffff7c;
+    padding: 8px;
+    border-radius: 10px;
+    height: 20px;
+    margin: 5px 50px;
+}
+
+footer img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
