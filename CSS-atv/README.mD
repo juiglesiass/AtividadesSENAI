@@ -1,1 +1,1 @@
-https://juiglesiass.github.io/AtividadesSENAI/tree/main/CSS-atv/
+https://juiglesiass.github.io/AtividadesSENAI/CSS-atv/
