@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-image: url(images/macbook-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homepage {
+    padding: 65px;
+}
+
+#login {
+    background-color: #ffffff70;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    gap: 10px;
+    text-align: center;
+}
+
+label {
+    text-align: left;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+
+button {
+    margin: 20px auto;
+    background-color: #651784;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #7f4497;
+    cursor: pointer;
+}
+
+span {
+    color: #651784;
+}
+
+span:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
