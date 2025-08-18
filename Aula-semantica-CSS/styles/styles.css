@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 20vh;
+    background-color: rgb(83, 234, 181);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    height: 60%;
+}
+
+nav {
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    height: 60%;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+aside {
+    width: 30vw;
+    background-color: blueviolet;
+}
+
+main {
+    width: 70vw;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: aliceblue;
+    width: 50%;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 20vh;
+    background-color: rgb(82, 184, 222);
+}
