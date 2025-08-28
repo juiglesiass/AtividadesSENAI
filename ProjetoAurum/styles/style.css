@@ -390,7 +390,7 @@ box-shadow: -5px -5px 15px var(--sombra-passo-clara),
 {
     transform: translateY(-10px); 
     /* /ao passar o mouse o botão vai ser mover -10px no eixo y/ */
-    background-color: D7A31D;
+    background-color: #D7A31D;
 }
 
 /* RODAPÉ */
